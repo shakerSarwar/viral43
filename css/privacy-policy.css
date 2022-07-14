@@ -1,0 +1,17 @@
+
+.privacy-title{
+    /* font-size: 56px; */
+    text-align: center;
+    margin: 30px 0;
+}
+
+.p-link{
+color: #000;
+}
+
+.profile-log-in{
+    text-align: center;
+    display: block;
+    color: #000 !important;
+    text-decoration: none;
+}

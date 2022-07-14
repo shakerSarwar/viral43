@@ -1,0 +1,399 @@
+.home-main{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.main-img{
+    width: 700px;
+    padding-top: 20px;
+}
+
+.main-text{
+    margin-top: 170px;
+    margin-left: 220px;
+}
+
+.main-text p{
+    font-size: 24px;
+    color: #283848;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-text h2{
+    font-size: 50px;
+    color: #283848;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.main-text button{
+    font-size: 16px;
+    color: #fff;
+    background-color: #cf4f4f;
+    border: 0.5px solid #fff;
+    padding: 10px 25px;
+    margin-top: 20px;
+}
+
+.main-text button:hover{
+    background-color: #444444;
+}
+
+.viral-items{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.viral-item img{
+    width: 300px;
+    margin-top: 30px;
+    padding: 10px 30px;
+}
+
+.viral-item h3{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #283848;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+#thirdSection h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    display: inline;
+    color: #283848;
+}
+
+.viral-item button{
+    padding: 10px 20px;
+    border: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.viral-item button:hover{
+    background-color: #444444;
+}
+
+.section4{
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.section4 p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #283848;
+    padding-top: 50px;
+}
+
+.section4 h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #283848;
+    margin: 15px 0;
+}
+
+.section4 button{
+    padding: 10px 20px;
+    border: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+    background-color: #cf4f4f;
+    color: #fff;
+}
+
+
+.section5{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 30px auto 140px;
+}
+.section5 img{
+    width: 450px;
+  
+}
+
+.sec5-img{
+    flex: 1;
+}
+
+.sec5-text{
+ flex: 1;
+ text-align: start;
+}
+
+.sec5-text h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: #283848;
+    margin-top: 80px;
+}
+
+.sec5-text p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px 0;
+}
+
+.sec5-text button{
+    padding: 15px 30px;
+    border: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+    background-color: #cf4f4f;
+    color: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fafafa;
+}
+.nav-container{
+    width: 70%; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: var(--rd,5px);
+    box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
+    height: 80px;
+    background-color: white;
+  
+}
+
+.nav-left ,.nav-right ,.nav-middle{
+    display: flex;
+    align-self: center;
+}
+
+.nav-middle span{
+    margin:0 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.nav-middle span a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-middle span a:hover{
+    color: #cf4f4f;
+}
+
+.nav-middle span:hover{
+    color: #cf4f4f;
+}
+
+.login-button{
+    background-color: #cf4f4f;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-button:hover{
+    background-color: #df9a9a;
+}
+
+.login-button a{
+    color: white;
+    text-decoration: none;
+}
+
+.login-button a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.fa-plus{
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+.viral{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #454545;
+    margin-left: 35px;
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+}
+
+.forty-three{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #CF4F4F;
+    font-weight: bold;
+    margin: 0 20px 0 0;
+}
+
+ /* -------------------login page css ------------------------------*/
+.login-box{
+    margin: 80px auto;
+    height: 300px;
+    background-color: white;
+    width: 420px;
+    box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
+}
+.login-box-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    height: 30px;
+    color: #454545;
+    letter-spacing: 0.1rem;
+}
+
+.facebook-login{
+    padding: 7px;
+    vertical-align: center;
+    color: white;
+    display: flex;
+    height: 30px;
+    justify-content: space-evenly;
+    background-color: #3b66c4;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.facebook-login i, .facebook-login p{
+    align-self: center;
+}
+
+
+.google-login{
+    padding: 7px;
+    vertical-align: center;
+    color: white;
+    display: flex;
+    height: 30px;
+    justify-content: space-evenly;
+    background-color: #cd4432;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.login-box-body{
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+}
+.google-login i, .google-login p{
+    align-self: center;
+}
+
+
+.login-box-body span{
+    text-decoration: none;
+    color: #287b9c;
+    cursor: pointer;
+}
+
+.login-box-body a{
+    text-decoration: none;
+    color: #287b9c;
+}
+
+.login-box-body a:visited{
+    text-decoration: none;
+    color: #287b9c;
+}
+
+/*------------------- sign up form--------------------- */
+
+.signup-form{
+    height: 750px;
+    background-color: #454545;
+    width: 350px;
+    margin: 40px auto 0;
+    background-color: #f6f6f6;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.signup-form-logo{
+    height: 40px;
+    text-align: center;
+   padding: 20px 0 0 0;
+   border-bottom: 1px solid gray;
+   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+ form input {
+    padding: 10px;
+    margin: 0 20px;
+    margin-bottom: 30px;
+ }
+
+ label{
+    margin:0 0 0 20px;
+ }
+
+
+ .check-box {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 30px;
+ }
+
+ .check-box button{
+    width: 100px;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #CF4F4F;
+    border: none;
+    color: white;
+    margin: 60px 0 0 95px;
+ }
+
+ .check-box label{
+    font-size: 16px;
+    align-self: center;
+ }
+
+ #vehicle1, #vehicle2{
+    width: 15px;
+    height: 15px;
+ }
+ 
+
+
+
+
+
+
+
+
+
+

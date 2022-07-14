@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "lulo-clean";
+  src: url("./../fonts/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+.font-lulo {
+  font-family: "lulo-clean";
+}
+
+.fa-plus {
+  padding-top: 7px;
+  cursor: pointer;
+}
+
+/*------------------- sign up form--------------------- */
+
+.signup-form {
+  height: 750px;
+  background-color: #454545;
+  width: 350px;
+  margin: 40px auto 0;
+  background-color: #f6f6f6;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.signup-form-logo {
+  height: 40px;
+  text-align: center;
+  padding: 20px 0 0 0;
+  border-bottom: 1px solid gray;
+  padding-bottom: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+form input {
+  padding: 10px;
+  margin: 0 20px;
+  margin-bottom: 30px;
+}
+
+label {
+  margin: 0 0 0 20px;
+}
+
+.check-box {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 30px;
+}
+
+.check-box button {
+  width: 100px;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #cf4f4f;
+  border: none;
+  color: white;
+  margin: 60px 0 0 95px;
+}
+
+.check-box label {
+  font-size: 16px;
+  align-self: center;
+}
+
+#vehicle1,
+#vehicle2 {
+  width: 15px;
+  height: 15px;
+}
+
+/* -------------------login page css ------------------------------*/
+.login-box {
+  margin: 80px auto;
+  height: 300px;
+  background-color: white;
+  width: 420px;
+  box-shadow: var(--shd, 0 1px 4px rgba(0, 0, 0, 0.6));
+}
+.login-box-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid black;
+  height: 30px;
+  color: #454545;
+  letter-spacing: 0.1rem;
+  padding-bottom: 50px;
+}
+
+.facebook-login {
+  padding: 7px;
+  vertical-align: center;
+  color: white;
+  display: flex;
+  height: 30px;
+  justify-content: space-evenly;
+  background-color: #3b66c4;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.facebook-login i,
+.facebook-login p {
+  align-self: center;
+}
+
+.google-login {
+  padding: 7px;
+  vertical-align: center;
+  color: white;
+  display: flex;
+  height: 30px;
+  justify-content: space-evenly;
+  background-color: #cd4432;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.login-box-body {
+  padding: 25px;
+  margin: 10px;
+  text-align: center;
+}
+.google-login i,
+.google-login p {
+  align-self: center;
+}
+
+.login-box-body span {
+  text-decoration: none;
+  color: #287b9c;
+  cursor: pointer;
+}
+
+.login-box-body a {
+  text-decoration: none;
+  color: #287b9c;
+}
+
+.login-box-body a:visited {
+  text-decoration: none;
+  color: #287b9c;
+}
