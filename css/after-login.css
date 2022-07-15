@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "lulo-clean";
+    src: url("./../fonts/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf");
+  }
+
+main{
+    text-align: center;
+}
+body{
+    background-color: #fafafa;
+}
+main p{
+    font-size: 18px;
+    color: #281A39;
+}
+
+main button{
+    background-color: #cf4f4f;
+    border: none;
+    width: 200px;
+    padding:10px 0;
+    color: white;
+    margin: 5px 0;
+}
+
+main button:hover{
+    background-color: #444444;
+}
+
+.main-card{
+    background-color: #fff;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.main-card h1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 20px;
+    color: #281A39;
+}
+
+
+
+.progress{
+width: 300px;
+margin: 0 auto;
+}
+
+.card-main-text p{
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.progress-bar{
+    border: 1px solid #916365;
+}
+
+
+
+.main-card2 h1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 40px;
+    color: #281A39;
+}
+
+.main-card2{
+    background-color: #fff;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.main-card3{
+    background-color: #fff;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.main-card3 h1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 40px;
+    color: #281A39;
+}

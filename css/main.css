@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "lulo-clean";
+    src: url("./../fonts/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf");
+  }
+
 .home-main{
     display: flex;
     justify-content: space-around;
